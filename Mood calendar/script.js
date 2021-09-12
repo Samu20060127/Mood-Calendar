@@ -36,7 +36,7 @@ function createCalendar() {
 
         //All months and all years
         let monthInYear = new Date(year, 11).getMonth()
-        let daysInMOnth = new Date(year, month, 0).getDate()
+        let daysInMOnth = new Date(year, month, 0).getDate() + 1
 
         //Getting all months by each name
         for (let i = 0; i <= monthInYear; i++) {
